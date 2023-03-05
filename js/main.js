@@ -12,21 +12,19 @@ if(edad >= 18) {
     }
 }
 
-/*let precioTotal=0;
-let producto;
 
-while(producto != "fin"){
-    producto=prompt("ingresa el nombre del producto o fin para salir");
-    if (producto=! "fin"){
-        let precio = parseFloat(prompt("ingrese el precio del producto"));
-        if(!isNaN(precio)) {
-            precioTotal +=precio;
-        }
-    }
-    alert("el precio total del carrito es: ${precioTotal}");
+let total = 0;
+
+function multiplicar(precio, cantidad) {
+    total = precio * cantidad
 }
-*/ 
 
+function mostrar (mensaje){
+    console.log(mensaje)
+}
+
+multiplicar (1230, 4);
+mostrar (total);
 
 
 
