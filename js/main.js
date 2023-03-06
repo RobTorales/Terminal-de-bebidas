@@ -5,26 +5,17 @@ if(edad >= 18) {
     alert("sos mayor de edad, podes ingresar");
 } else {
     alert("sos menor de edad, no podes ingresar");
-    if(isNaN (edad) && edad>18){
-
-    } else {
-        alert("sos menor de edad no podes ingresar");
-    }
 }
 
+let precio = prompt ("ingrese el precio");
+let cantidad = prompt ("ingrese cantidad");
 
-let total = 0;
-
-function multiplicar(precio, cantidad) {
-    total = precio * cantidad
+function precioTotal(precio, cantidad) {
+    return precio * cantidad;
 }
 
-function mostrar (mensaje){
-    console.log(mensaje)
-}
+alert(precio * cantidad);
 
-multiplicar (1230, 4);
-mostrar (total);
 
 
 
