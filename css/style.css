@@ -35,3 +35,7 @@ a{
 .uno, .dos, .tres, .cuatro, .cinco, .seis, .siete, .ocho, .nueve, .diez, .once, .doce, .trece, .catorce, .quince, .dieciseis{
     border: solid black 2px;
 }
+
+.producto-imagen{
+    max-width: 100%;
+}
